@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://eijrkkmac754"]
+
+[ext_resource type="Script" uid="uid://djxkwxe4p31sf" path="res://Scripts/tcp_connection.gd" id="1_w2l1y"]
+
+[node name="Teste" type="Node3D" unique_id=2126445774]
+
+[node name="TCPManeger" type="Node3D" parent="." unique_id=1915808345]
+script = ExtResource("1_w2l1y")
